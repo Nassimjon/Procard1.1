@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/procard?useSSL=false
+    username: root
+    password: root
